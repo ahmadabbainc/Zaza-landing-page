@@ -15,7 +15,7 @@ const HamburgerMenu = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="absolute">
       <button
         className={`text-gray-800 focus:outline-none ${
           menuOpen ? "hidden" : ""
